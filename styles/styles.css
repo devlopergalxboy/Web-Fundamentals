@@ -1,6 +1,11 @@
+:root {
+    --background-color: darkblue;
+    --global-padding: 10px;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--global-padding);
 }
 
 nav a {
@@ -10,7 +15,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--background-color);
 }
 
 img {
@@ -22,5 +27,5 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: var(--global-padding);
 }
